@@ -1,0 +1,50 @@
+.respo1
+{ 
+   width: 10rem;
+  margin-top:10rem;
+  
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+margin-top:7rem;
+z-index: 88888;
+overflow: hidden;
+position: relative;
+
+} 
+.respo1.www ul li a
+{
+    color: black;
+}
+ @media screen and (max-width: 768px) {
+
+.respo1
+{
+  
+
+color: black;
+z-index: 8888;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+margin-top:3rem;
+
+
+z-index: 88888;
+
+/* position: relative; */
+position: fixed;
+margin-top: 7rem;
+}
+
+.WWW
+{
+
+display: contents;
+margin-left:5rem;
+height: fit-content;
+}
+} 
+

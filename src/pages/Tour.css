@@ -1,0 +1,595 @@
+.background_image {
+  background-image: url('plae.jpg'); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem; /* Set a fixed height for the background image */
+  z-index: 8888;
+}
+    
+
+.conte
+{
+    font-size:4rem;
+    margin-left: 30rem;
+}
+.content {
+  padding-top:12rem; /* Adjust the padding value to control the placement */
+}
+.second
+{
+    background-color: white;
+  height: fit-content;
+   padding-bottom: 5rem;
+}
+.tour_a{
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  padding-top: 1.7rem;
+  margin-left: 8rem;
+
+}
+.tour_a1{
+width: 12.2rem;
+height: 2.4rem;
+/* border: solid 0.5px black; */
+color: #000;
+border: solid 1px black;
+padding-left: 2rem;
+align-items: center;
+}
+.tour_a2{
+width: 12.1rem;
+height: 2.5rem;
+
+
+}
+.tour_a3
+{
+width: 12.1rem;
+height: 2.5rem;
+background-color: white;
+
+
+}
+.select1{
+width:12.1rem;
+height: 2.5rem;
+background-color: white;
+color: black;
+}
+.select2{
+width:12.1rem;
+height: 2.5rem;
+background-color: white;
+color: black;
+}
+/* .select0{
+  width:12rem;
+height: 2.4rem;
+background-color: white;
+color: black;
+padding-left: 3rem;
+
+} */
+.TB{
+   background-image: url('houses.jpg');
+   width: 19rem ;
+   height: 13rem;
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.TB1
+{
+ 
+color: white;
+width: 5rem;
+height:1rem;
+padding-top: 11.8rem;
+padding-left: 2rem;
+
+}
+.textb1{
+  background-color: #C29D59;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+ 
+ width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  
+  
+}
+
+
+/*  EDIT*/
+.TB3{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.TB4{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding-left: 0.3rem;
+}
+.TB5{
+  display: flex;
+  flex-direction: row;
+  gap: 6.1rem;
+}
+
+
+.tourbuttto a{
+  text-decoration: none;
+  color: white;
+}
+
+.tourbuttto
+{
+  background-color: #C29D59;
+ color: white;
+  height: 3rem;
+  width: 7rem;
+}
+.hr
+{
+  width: 17rem;
+}
+.TB2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: black; 
+  height: 18rem;
+  border-left: solid 3px #C29D59;
+  padding-top: 1.7rem;
+  padding-left:1.9rem ;
+  border-bottom: solid 2px rgb(220, 214, 214);
+  width: 17rem;
+  border-radius: 2px;
+  margin-top: -2rem;
+
+
+}
+.tbtext1{
+  font-size: small;
+}
+.tbtext2
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+      
+
+   .tour_b
+   {
+    
+    margin-left: 10rem;
+   }
+   .tour_num
+   {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-top: 1.3rem;
+   }
+   .duratext
+   {
+   font-size: 1rem;
+   font-family: 'Times New Roman', Times, serif;
+   }
+ .daystext
+ {
+font-size:0.6rem;
+ }
+ .tourb_holder
+ {
+  margin-top: 1rem;
+ }
+ .TC{
+   background-image: url('JER_home.jpg');
+   width: 19rem ;
+   height: 13rem;
+}
+.textb2{
+  background-color: #C29D59;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  width: fit-content;
+  padding-left: 1rem;
+    padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  
+  
+}
+
+
+.tourD_holder{
+
+  
+  background-color: white;
+  height: 20rem;
+  width: 15rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+
+}
+.collecty
+{
+  margin-left: 50rem;
+  margin-top: -7rem;
+  height: 100rem;
+}
+.tour_d{
+  border-left: solid #C29D59;
+  color: black;
+  padding-left: 0.8rem;
+}
+
+.tour_container
+{
+  display: flex;
+  flex-direction:column;
+  margin-left: -2rem;
+  height: fit-content;
+ background-color: white;
+} 
+
+.holder_numbertour
+{
+  color: rgb(39, 37, 37);
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+.holder_numbertour1{
+
+   background-color: white;
+  border: solid 1px rgb(23, 23, 23);
+  color: black;
+
+}
+.texd
+{
+    width: 15rem;
+  height: 2.6rem; 
+  border-radius: 5px;
+  background-color: white;
+  border: solid 1px rgb(23, 23, 23);
+  color: rgba(23, 22, 22, 0.932);
+}
+.texd1
+{
+  width: 6.3rem;
+  height: 2.6rem; 
+   background-color: white; 
+    border-radius: 5px;
+  
+}
+
+.texd2
+{
+
+    width: 24px; /* Adjust the width as needed */
+    height: 24px;
+    background-color:white;  /* Change the background color to your desired color */
+    border: 2px solid #000;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+
+.Butto_tourist
+{
+  background-color: #C29D59;
+  width: 15rem;
+  height: 2.6rem;
+}
+.textd3
+{
+  color: #000;
+justify-content: center;
+background-color: white;
+  
+}
+.texd2 input[type="checkbox"] {
+     background-color: white;
+    border: initial;
+ 
+}
+
+.tourC_holder{
+  display: flex;
+  flex-direction: row;
+  margin-top: 21rem;
+  gap: 1.6rem;
+  
+}
+  .TBcard2{
+   background-image: url('mountain4.jpg');
+   width: 19rem ;
+   height: 13rem;
+}
+.textb1card2
+{
+background-color: #C29D59;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  height: 1.9rem;
+  width: 8rem;
+  padding-left: 1rem;
+    
+  padding-top: 0.5rem;
+}
+.tour-text
+{
+ 
+color: black;
+
+  margin-top: 47rem;
+  margin-left:2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 5px;
+  border-bottom: solid 2px rgb(159, 154, 154);
+  height: 10rem;
+  width: 15rem;
+  box-shadow: 3px 3px 5px rgba(156, 154, 154, 0.3);
+
+}
+.tour-text1
+{
+  border-left: solid 2px #C29D59;;
+  color: rgb(31, 30, 30);
+  padding-left: 0.7rem;
+
+  
+}
+.tour-text2{
+font-size: 0.9rem;
+color: gray;
+
+}
+.endtourpe{
+  background-image: url('mountainend.jpg');
+   width: 15rem ;
+   height: 12rem; 
+  margin-top: 4rem;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.end1{
+  border-left: solid 2px black;
+  padding-left: 0.7rem;
+  color: black;
+
+}
+.end2
+{
+  font-size:0.7rem;
+}
+
+/*home grace design*/
+.greece_design
+{
+  color: black;
+  margin-top: -14.1rem;
+  writing-mode: vertical-rl; /* Rotate the text 90 degrees clockwise (right to left) */
+  transform: rotate(180deg); /* Correct the text direction to be upright */
+  white-space: nowrap; /* Prevent line breaks in the text */
+  text-align: center;
+  background-color: #C29D59;
+
+  height: 5rem;
+  width: 2rem;
+  padding-left: 1px;
+  padding-right:1px;
+
+  
+}
+.greece_design_tour
+{
+   color: black;
+  margin-top: -12.8rem;
+  margin-left: 2rem;
+  writing-mode: vertical-rl; /* Rotate the text 90 degrees clockwise (right to left) */
+  transform: rotate(180deg); /* Correct the text direction to be upright */
+  white-space: nowrap; /* Prevent line breaks in the text */
+  text-align: center;
+  background-color: #C29D59;
+
+  height: 5rem;
+  width: 2rem;
+  padding-left: 1px;
+  padding-right:1px;
+}
+.tourbutto a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* innovation */
+
+.TB_innovation
+{
+   width: 19rem ;
+   height: 13rem;
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.JUST1
+{
+  position: relative;
+}
+.JUST2
+{
+  position: relative;
+  margin-top: -1.5rem;
+
+
+  margin-left:1px;
+ 
+}
+
+.JUST_hold
+{
+ /* display: grid; */
+ /* grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); */
+
+ /* width: 50%;*/
+ margin-left:8rem; 
+
+ height: fit-content;
+margin-top:-92rem;
+display: flex;
+flex-direction: column;
+gap:1rem;
+
+ 
+}
+.tourC_subb
+{
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px){
+ 
+  .tour_a
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left :4.7rem;
+    gap: 0.7rem;
+  }
+
+.tour_a1{
+width: 16.5rem;
+height: 2.4rem;
+
+color: #000;
+border: solid 1px black;
+padding-left: 2rem;
+
+}
+.tour_a2{
+width: 18.7rem;
+height: 2.5rem;
+
+
+}
+.tour_a3
+{
+width: 18.7rem;
+height: 2.5rem;
+background-color: white;
+
+
+}
+.select1{
+width: 18.7rem;
+height: 2.5rem;
+background-color: white;
+color: black;
+}
+.select2{
+width: 18.7rem;
+height: 2.5rem;
+background-color: white;
+color: black;
+}
+.JUST_hold
+{
+display: flex;
+flex-direction: column;
+gap:2rem;
+ margin-left: 4.7rem;
+ margin-bottom: 2rem;
+ height: fit-content;
+ padding-top: 70rem;
+
+}
+
+.tourD_holder{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: white;
+  height: 20rem;
+  width: 15rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  
+
+}
+.second
+{
+    background-color: white;
+   height: fit-content;
+   padding-bottom: 5rem;
+   
+}
+
+.endtourpe{
+ 
+   width: 15rem ;
+   height: 12rem; 
+   margin-left: 3rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+
+  margin-bottom: 2rem;
+}
+
+.tour-text
+{
+
+  margin-top: 50rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 5px;
+  border-bottom: solid 2px rgb(159, 154, 154);
+  height: 10rem;
+  width: 15rem;
+
+}
+.collecty
+{
+  margin-left: 2rem;
+  margin-top: 1rem;
+ 
+ 
+
+}
+    
+  }

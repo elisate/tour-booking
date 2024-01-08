@@ -1,0 +1,20 @@
+.use1 {
+  padding-left: 13rem;
+  height: fit-content;
+  background-color: white;
+  padding-top: 3rem;
+}
+.edituser1 {
+  color: black;
+}
+.deleteuser1 {
+  color: red;
+}
+.usetable
+{
+  box-shadow: 0 0 3px black;
+}
+.tab2
+{
+  margin-left: 10rem;
+}

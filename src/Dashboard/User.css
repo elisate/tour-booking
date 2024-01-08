@@ -1,0 +1,35 @@
+.USER_DISPLAY {
+  margin-left: 13rem;
+  margin-top: 4rem;
+}
+.img_A {
+  width: 40px; /* Adjust the width and height as needed */
+  height: 40px;
+  border-radius: 50%; /* Makes the image circular */
+}
+.A {
+  background-color: brown;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+  border: none;
+}
+tr:nth-child(even) {
+  background-color: white;
+  border: none;
+  border-color: white;
+}
+
+th {
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+table {
+  width: fit-content;
+  box-shadow: 0 0 10px black;
+}
+.yv td {
+  margin: 1rem;
+}

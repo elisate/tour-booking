@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .background-imagee {
+   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 44rem;
+  }
+  .name-indian {
+    width: 20%;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    transform: translateY(150px);
+    margin-left: 30rem;
+    font-weight: bold;
+  }
+  
+  .info-button {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  .info-button:hover {
+    background-color: #C29D59;
+    color: #fff;
+  }
+  .vertical-line {
+    border-left: 3px solid #ccc; /* Vertical line between buttons */
+    height: 40px; /* Adjust the height of the line to match the larger buttons */
+    margin: 0 5px; /* Reduce the margin to bring the line closer to the buttons */
+  }
+  .para23 {
+    
+    margin-left: 22rem;
+    margin-top: 10px;
+  }
+
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #C29D59;
+    color: #000;
+    font-size: 16px;
+    margin-top: 5rem;
+  }
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #C29D59;
+    transform: translateX(200px);
+    margin-bottom: 20px;
+  }
+  
+  .circle p {
+    margin: 0;
+    text-align: center;
+  }
+  .circle p:last-child {
+    margin-top: 10px;
+  }
+
+  .title-2 {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    margin-left: -3.5rem;
+  }
+  .title-2::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 3px;
+    height: 120%;
+    background-color: #C29D59;
+  }
+  .search-tour1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-mission2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 57rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px;
+    transform: translateY(-60px);
+    width: 24%;
+  }
+  .tour-mission2 p {
+    color: #999;
+    padding: 10px;
+  }
+  .tour-mission2 h1 {
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .tour-mission2 h1::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    width: 3px;
+    height: 20%;
+    background-color: #C29D59;
+    margin-left: -0.1rem;
+  }
+  .tour-mission3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 57rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #C29D59;
+    padding: 18px;
+    transform: translateY(-40px);
+    width: 24%;
+    height: 50vh;
+  }
+  .tour-mission3 h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: translateY(-10px);
+    margin-left: 1.4rem;
+  }
+  .tour-mission3 p {
+    color: #F6F6F6;
+    padding: 10px;
+    padding-top: 23px;
+    margin-left: 1.1rem;
+  }
+  .circle::before {
+    content: "";
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+    transform: translateY(23px);
+  }
+  .circle p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .circle p:last-child {
+    margin-top: 10px;
+  }
+  .planned-trip {
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #C29D59;
+    color: #2B2B2B;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin-left: 10rem;
+  }
+  .planned-trip p {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .trip-description {
+    padding: 10px;
+   
+    margin-left: 9.5rem;
+    margin-top: 1.4rem;
+    color: #2B2B2B;
+    font-size: 0.9rem;
+    width: 30rem;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 3rem;
+    border-left: 1px solid #ccc;
+    transform: translateY(-20px);
+  }
+  thead {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+  }
+  thead th {
+    padding: 24px;
+    text-align: left;
+    border-right: 1px solid #ccc;
+  }
+  tbody td {
+    padding: 24px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  tbody td:first-child {
+    font-weight: bold;
+  }
+  /* Centering text in the columns */
+  td:nth-child(3),
+  td:nth-child(4) {
+    text-align: center;
+  }
+
+.section-tourdetails
+{
+   color: #000;
+   background-color:white;
+   margin-top: -20rem;
+   
+    
+}
+
+.dudu
+{
+    height: 2.5rem;
+    background-color: white;
+    border:solid 1px black;
+    color: black;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+.dudi
+{
+      height: 2.5rem;
+    background-color: white;
+    border:solid 1px black;
+    color: black;
+    border-radius: 5px;
+    padding-left: 2rem;
+    width: 10rem;
+}
+.dusu
+{
+        height: 5rem;
+    background-color: white;
+    border:solid 1px black;
+    color: black;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-top: 0.1rem;
+    width: 10rem;
+}
+.sasa
+{
+width: 13rem;
+}
+.sore{
+    padding-left: 0.5rem;
+
+}
+.MYGOD
+{
+  color: white;
+  font-size: 2.4rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.ttable {
+  border:  solid 1px gray;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.tttable {
+  border: none;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.div1{
+    width: 20%;
+    border: solid 1px gray;
+    text-align: center;
+    padding: .8rem;
+    font-size: 0.6rem;
+}
+.div1:hover{
+  background-color: #C29D59;
+}
+.div2{
+    width: 20%;
+    border: none;
+    background-color: #C29D59;
+    text-align: center;
+    padding: .8rem;
+   font-size: 0.6rem;
+}
+
+.leftDetails {
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2rem;
+    gap: 3rem;
+}
+.single_first
+{
+  height: 45rem;
+}
+ 
+ 
+
+   .side-form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47rem;
+    padding-top: 2rem;
+    width: 24%;
+    position: absolute;
+    margin-top: -7rem;
+   background-color: white;
+   color: #000;
+   gap: 1rem;
+ 
+  }
+  .detail-information
+  {
+    margin-top: 20rem;
+    width:30rem;
+    margin-left: 10rem;
+    padding-top: 1rem;
+  }
+
+.im{
+  position: relative;
+  background-color: white;
+ 
+}
+.tableo
+{
+  width: 30.7rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+.end_single
+{
+  margin-top: 10rem;
+}
+
+.tour-text1
+{
+  border-left: solid 2px #C29D59;;
+  color: rgb(31, 30, 30);
+  padding-left: 0.7rem;
+
+  
+}
+.tour-text2{
+font-size: 0.9rem;
+color: gray;
+
+}
+
+@media screen and (max-width: 768px){
+
+.ttable {
+   border:  solid 1px gray;
+  
+    display: flex;
+   flex-direction: column;
+    border-radius: 5px;
+    margin-left: -8.8rem;
+    
+}
+.detail-information
+{
+width: 20rem;
+height: 2rem;
+}
+.div1
+{
+  width: 20rem;
+  height: 3rem;
+  
+}
+ .para23 {
+    
+    margin-left: -3rem;
+    padding-top: 12rem;
+  }
+  .planned-trip
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left:1.5rem;
+    width: 20rem;
+  }
+  .trip-description
+  {
+
+  margin-left: 1rem;
+  width: 21rem;
+  }
+  .tableo
+  {
+    margin-left: 1rem;
+    width: 22rem;
+  }
+  .side-form1
+  {
+    margin-left: 2rem;
+    margin-top: 88rem;
+    width: 10rem;
+  }
+
+  .im
+  {
+    height:195rem;
+  }
+  .dudu
+  {
+    width: 20rem;
+    margin-left:10rem;
+  }
+
+ 
+  .srespo
+  {
+    height: 27rem;
+  }
+  .dusu
+  {
+   width: 20rem;
+    margin-left:10rem; 
+  }
+  .sasa
+  {
+   width: 20rem;
+    margin-left:10rem;  
+  }
+  .dudi{
+  width: 20rem;
+    margin-left:10rem; }
+ 
+}

@@ -1,0 +1,150 @@
+.nav1 {
+  background-color: #2b2b2b;
+}
+.allpages {
+  margin-top: 8rem; 
+  position: absolute; 
+  top: 4rem; 
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 20rem;
+}
+.pad {
+  margin-top: 2rem; 
+  position: absolute; 
+  top: 4rem; 
+  padding-left: 3.9rem;
+}
+.all {
+  background-color: #393939;
+  margin: 0;
+  padding-left: 5rem;
+  width: 34rem;
+  height: 13rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+
+  text-decoration: none; 
+}
+.all li a:hover {
+  text-decoration: line-through;
+  color: #c29d59;
+}
+.all li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.whites {
+  height: 12rem;
+  padding-top: 3rem;
+}
+.so {
+  display: flex;
+  flex-direction: row;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  gap: 1rem;
+}
+.so1 {
+  width: 2rem;
+  height: 2rem;
+  color: #c29d59;
+}
+.so2 {
+  width: 2rem;
+  height: 2rem;
+  color: #c29d59;
+}
+.so3 {
+  width: 2rem;
+  height: 2rem;
+  color: #c29d59;
+}
+.all ul li {
+  text-decoration: none; 
+  list-style: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.navpost {
+  position: absolute;
+
+}
+.holder {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 8888888;
+  background-color: #2b2b2b;
+  right: 0;
+}
+
+/* Scroll animation */
+@keyframes scrollFromRight {
+  from {
+    transform: translateX(100%); /* Move from right to left */
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the elements you want to animate */
+.navpost {
+  animation: scrollFromRight 0s ease; /* Adjust the duration and easing as needed */
+}
+
+.l4 {
+  animation: scrollFromRight 0s ease 2s; /* Delay the login link's animation by 0.5s */
+}
+.holder {
+  animation: scrollFromRight 1s ease;
+}
+.close_icon {
+  margin-left: 69rem;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 7rem;
+  
+  position: relative;
+}
+
+
+ @media screen and (max-width: 768px){
+
+
+
+.pad{
+padding-left: 1rem;
+
+}
+.us
+{
+  margin-left: 0.5rem;
+}
+.close_icon {
+  margin-left: 20rem;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 14rem;
+  z-index: 88888;
+  top:0;
+  bottom:0;
+  right: 0;
+  left: 0;
+ 
+}
+
+
+  
+}

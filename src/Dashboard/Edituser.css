@@ -1,0 +1,93 @@
+.mm{
+    background-color: rgba(191, 182, 182, 0.5);
+    width: 100%;
+    height: 80vh;
+    margin-top:-1.2rem ;
+    position: absolute;
+    z-index: 1000;
+   
+}
+.edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    z-index: 10000;
+  background-color: white;
+  border-radius: 5px;
+  }
+  
+  .edit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .edit-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .edit-body {
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+   
+   
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  
+  .edit-footer {
+    text-align: right;
+  }
+  
+  .edit-button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-save {
+    background: #C29D59;
+    color: #fff;
+  }
+  
+  .edit-cancel {
+    background: #A52A2A;
+  }
+  .collect
+  {
+    background-color: white;
+      border: solid 5px black;
+  }
+  .pe
+  {
+    background-color: white;
+    border: solid 5px black;
+  }
+  
+  

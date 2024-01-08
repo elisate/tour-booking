@@ -1,0 +1,61 @@
+.dash_array_tour {
+  margin-left: 9.8rem;
+  margin-top: 6rem;
+  background-color: white;
+  height: fit-content;
+  padding-bottom: 3rem;
+ width: fit-content;
+}
+
+td button {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.dash_array_tour td:last-child button {
+  margin-right: 2px;
+}
+
+.dash_array_tour table {
+  width: fit-content;
+  box-shadow: 0 0 3px black;
+}
+.dash_array_tour th,
+.dash_array_tour td {
+  text-align: center;
+  border: none;
+}
+.dash_array_tour th {
+  background-color: white;
+  color: black;
+}
+.dash_array_tour tr:nth-child(odd) {
+  background-color: lightgrey;
+  border: none;
+}
+.dash_array_tour tr:nth-child(even) {
+  background-color: white;
+  border: none;
+  border-color: white;
+}
+
+.img_tours {
+  width: 40px;
+  height: 40px;
+}
+.A {
+  background-color: brown;
+}
+.add {
+  margin-left: 51rem;
+  position: fixed;
+  margin-top: -4rem;
+}
+.dash_array_tour .gl
+ {
+  font-size:1px;
+  width: 1rem;
+}
+.c
+{
+  color: #7fff00;
+}

@@ -1,0 +1,140 @@
+.container_register {
+   
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    background-color: #f9f9f9;
+    background-color: white;
+    width: 23.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    color: black;
+   
+    
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+  
+}
+.reg
+{
+    padding-left: 6rem;
+}
+
+#registrationForm {
+    text-align: left;
+}
+
+.form-group {
+    margin: 10px ;
+    background-color: white;
+}
+
+button {
+    background-color: #C29D59;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content_register
+{
+    padding-top:6rem; /* Adjust the padding value to control the placement */
+    color: black;
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    box-shadow: 0 0 5px black;
+   
+    
+}
+.subr
+{
+    margin-bottom: 1rem;
+}
+.R{
+    
+  
+  width: 22rem;
+  height: 2.6rem;
+   background-color: white;
+  border: solid 1px black;
+  padding-left: 1rem;
+  border-radius: 5px;
+  color: black;
+}
+.registerimage
+{
+    height:25.5rem;
+ 
+    width: 30rem;
+     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5), 
+     0 -5px 5px -5px rgba(0, 0, 0, 0.5),
+      5px 0 5px -5px rgba(0, 0, 0, 0.5);
+}
+.registerimage2
+{
+    height: 25rem;
+}
+.we
+{
+    padding-left: 0.7rem;
+}
+.pe
+{
+    background-color: #3B3B3B;
+}
+.my
+{
+    background-color: white;
+     box-shadow: 0 0 5px black;
+}
+toyou
+{
+color: black;
+padding-top: 4rem;
+}
+
+.login_notfy2
+{
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+.content_register
+{
+    padding-top:6rem; /* Adjust the padding value to control the placement */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    box-shadow: 0 0 5px black;
+ 
+    
+}
+.container_register
+{
+    margin-left:1rem;
+    width: 18rem;
+}
+
+.R{
+ width: 10rem;
+  border: solid 2px black;
+  padding-left: 0.6rem;
+  border-radius: 5px;
+  color: black;
+  z-index: 1;
+}
+.registerimage
+{
+    width: 23rem;
+    padding-left: 1.3rem;
+}
+
+
+}

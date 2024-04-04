@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "../Dashboard/Toursform.css";
+import "./../Dashboard/Toursform.css";
+
 import axios from "axios";
 
 

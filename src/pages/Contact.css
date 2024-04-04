@@ -158,7 +158,12 @@
     {
         padding-left: 1.2rem;
     }
-
+.contact_map
+{
+  
+    margin-left:12rem;
+  display: none;
+}
 .contact2a{
     display: flex;
     flex-direction: column;

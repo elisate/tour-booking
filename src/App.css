@@ -217,12 +217,6 @@
   color: white;
 }
 
-@media screen and (max-width: 1114px) {
-  .section1 {
-    margin-left: 3.8rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .section2 {
     width: 30.7rem;

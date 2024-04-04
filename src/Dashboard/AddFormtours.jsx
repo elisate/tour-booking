@@ -1,5 +1,5 @@
 import React from "react";
-import "./Toursform.CSS";
+import "../Dashboard/Toursform.css";
 import TourArray from "./TourArray";
 import { useForm } from "react-hook-form";
 import axios from "axios";

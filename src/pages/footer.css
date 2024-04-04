@@ -157,14 +157,7 @@ margin: 10px 0;
 padding-left: 1rem;
 }
 
- @media screen and (max-width: 1114px){ 
-.tooter{
-    
-    height: 30rem;
-    width: 70rem;
-}
-} 
-
+ 
  @media screen and (max-width: 768px){
 
 .allcontain_foot{

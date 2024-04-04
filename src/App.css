@@ -268,6 +268,7 @@
     flex-direction: column;
     gap: 1px;
     padding-left: -4rem;
+    font-size: smaller;
   }
 
   .icon4_t {
@@ -287,16 +288,16 @@
   }
 
   .section1 {
-    width: 22rem;
+   width: fit-content;
     background-color: #ffffff;
     height: 6.1rem;
     align-items: center;
-
+     font-size: smaller;
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-left: 1.2rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     position: absolute;
     margin-top: 6rem;
 

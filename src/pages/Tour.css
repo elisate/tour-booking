@@ -4,7 +4,11 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 35rem; /* Set a fixed height for the background image */
-  z-index: 8888;
+  z-index: 88888888;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
 }
     
 

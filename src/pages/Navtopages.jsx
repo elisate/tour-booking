@@ -15,31 +15,36 @@ function Navtopages({open}) {
               <img src="white-logo.png" alt="log" />
             </div>
             <div>
-              <AiOutlineCloseCircle className="close_icon" onClick={open}/>
+              <AiOutlineCloseCircle className="close_icon" onClick={open} />
             </div>
 
             <div className="allpages">
               <div className="all">
                 <ul>
                   <li className="ul">
-                    <a href="homepage">Home</a>
+                    <Link to="/homepage" onClick={open}>
+                      Home
+                    </Link>
                   </li>
                   <li className="li2">
-                    <a href="Tour_page">Tours</a>
+                    <Link to="/Tour_page" onClick={open}>
+                      Tours
+                    </Link>
                   </li>
                   <li className="li3">
-                    <a href="contact_page">Contact us</a>
+                    <Link to="/contact_page" onClick={open}>
+                      Contact us
+                    </Link>
                   </li>
                   <li>
-                    <a href="login_page" className="l4">
+                    <Link to="/login_page" className="l4">
                       Login
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="li3">
-                    <a href="Register_page">Register</a>
+                    <Link to="/Register_page">Register</Link>
                   </li>
-                 
                 </ul>
               </div>
               <div className="so">

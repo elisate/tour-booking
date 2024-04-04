@@ -70,10 +70,7 @@ function First() {
               </div>
             </div>
             <div className="h" onClick={open}>
-              {/* onClick=
-              {() => {
-                setModal(!modal);
-              }} */}
+      
               <h1>
                 <HiMenuAlt3 className="hic" />
               </h1>

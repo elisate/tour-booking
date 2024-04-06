@@ -1,13 +1,9 @@
 .contact_back{
   background-image: url('../components/pici/conta3.webp'); 
-  /* Replace with the actual image path */
   background-size: cover;
   background-repeat: no-repeat;
-
   height: 35rem; 
   z-index: 8888;
-
-  /* width: 1262px; */
 }
 .contact1
 {
@@ -20,13 +16,11 @@
 }
 .contact2
 {
+    padding-top: 2rem;
     color: black;
-    margin-left: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-     padding: 5rem;
-    
 }
 .contact2a{
     display: flex;
@@ -67,17 +61,13 @@
 }
 .CONTACT_container
 {
-    margin-top: -33rem;
-    margin-left: 46rem;
+    
     background-color: white;
     padding-top: 1.7rem;
-    margin-right: 9rem;
-    
-    display: flex;
-    flex-direction: column;
-    gap:3rem;
     width: 19rem;
-  
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .CONTACT{
 
@@ -140,19 +130,34 @@
     padding-left: 0.6rem;
     align-items: center;
 }
-.contact_textend
-{
-    margin-left:10.9rem;
-    margin-top: 5rem;
-}
+
 .contact_map
 {
-    margin-top: -10rem;
-    margin-left:12rem;
-    width: 5rem;
+    width: 46rem;
 }
+.indiancontact
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+}
+.contactbutto
+{
+    background-color: #C29D59;
+   
+}
+.nmap{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
 
-
+}
 @media screen and (max-width: 768px){
 
     .contact2_holder
@@ -162,8 +167,18 @@
 .contact_map
 {
   
-    margin-left:12rem;
-  display: none;
+ display: none;
+ 
+}
+
+.nmap{
+    display: flex;
+    flex-direction:column;
+    
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+
 }
 .contact2a{
     display: flex;
@@ -192,10 +207,10 @@
   color: black;
   
 }
-.CONTACT .BUTTO
 
+.contactbutto
 {
-    width: fit-content;
+    background-color:  #C29D59;
 }
 
 .address1_contact
@@ -204,30 +219,28 @@
     flex-direction: column;
     color: black;
     gap: 1rem;
-    margin-left: -8rem;
+   
      box-shadow: 0 0 10px rgba(87, 86, 86, 0.5);
      width: 18rem;
 }
 
 .CONTACT_container
 {
-    margin-top: -1rem;
-    margin-left: 2.8rem;
     background-color: white;
-    padding-top: 1.7rem;
-    
-   
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     gap:3rem;
   
 }
-.contact_map
-{
-    margin-top: 5rem;
-    margin-left:0rem;
-    width: 3rem;
-}
 
+.indiancontact
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
 
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import './pages/home.css';
 import BackgroundSlider from "./pages/BackgroundSlider.jsx";
-import Cardlist from './pages/Cardlist';
+
 import {CiLocationOn} from 'react-icons/ci';
 import {BsCalendarDate} from 'react-icons/bs';
 import {SiYourtraveldottv} from 'react-icons/si'
@@ -98,16 +98,16 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="section2_b">
-          <div className="logo_b">
-            <img src="logo-icon2.svg" className="image"></img>
-          </div>
+         <div>
+
+
+        <div className="fixhome">
 
           <div className="image-container">
             <img src="images-grid1.jpg" className="grid1" />
             <img src="image-grid2.jpg" className="grid2" />
           </div>
-          <div className="section2_b1">
+          <div className="section2b1">
             <div>
               <p className="about">About Us</p>
             </div>
@@ -155,7 +155,11 @@ function Home() {
           </div>
         </div>
 
-        <div className="resp_text">
+      
+
+        </div>
+
+          <div className="resp_text">
           <div className="offer_sec1">
             <p>Amazing Tours</p>
           </div>

@@ -1,5 +1,6 @@
 .contact_back{
-  background-image: url('conta3.webp'); /* Replace with the actual image path */
+  background-image: url('../components/pici/conta3.webp'); 
+  /* Replace with the actual image path */
   background-size: cover;
   background-repeat: no-repeat;
 

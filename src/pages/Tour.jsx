@@ -1,9 +1,6 @@
 import React from "react";
 import "./Tour.css";
-import Cardlist from "./Cardlist";
-import { Link } from "react-router-dom";
- import fetching from "../API/fetching";
-import { useState, useEffect } from "react";
+
 import { useNavigate } from "react-router-dom";
 import { mycontext } from "../context/Contextprovider";
 function Tour() {
